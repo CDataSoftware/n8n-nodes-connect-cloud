@@ -45,3 +45,5 @@ To use this node, you need to provide the SQL query you want to execute, along w
 
 ### 0.1.0
 - Initial release
+### 0.1.1
+- Minor bug fixes
