@@ -1,6 +1,6 @@
 import { ICredentialType, INodeProperties } from 'n8n-workflow';
 
-export class ConnectCloudApi implements ICredentialType {
+export class ConnectCloudQueryApi implements ICredentialType {
   displayName = 'Connect Cloud API';
   name = 'connectCloudApi';
   version = 1;
