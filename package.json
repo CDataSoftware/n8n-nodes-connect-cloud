@@ -1,6 +1,6 @@
 {
   "name": "n8n-nodes-connect-cloud",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "description": "n8n nodes for Connect Cloud",
   "keywords": [
     "n8n-community-node-package"
@@ -35,12 +35,12 @@
   ],
   "n8n": {
     "n8nNodesApiVersion": 1,
-    "credentials": [
-      "dist/credentials/ConnectCloudApi.credentials.js"
-    ],
-    "nodes": [
-      "dist/nodes/Query/ConnectCloudQuery.node.js"
-    ]
+		"credentials": [
+			"dist/credentials/CDataConnectCloudApi.credentials.js"
+		],
+		"nodes": [
+			"dist/nodes/CDataConnectCloud/CDataConnectCloud.node.js"
+		]
   },
   "devDependencies": {
     "@types/node": "^22.7.5",
@@ -54,8 +54,5 @@
   },
   "peerDependencies": {
     "n8n-workflow": "*"
-  },
-  "dependencies": {
-    "axios": "^1.7.7"
   }
 }
